@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* this is how you can comment out sentences in CSS */
+        /* Element Selector */
+        p{
+            border: 2px solid black;
+        }
+        /* class selector */
+        .bgcolour{
+            background-color:pink;
+        }
+        /* id selector */
+        #purplecolour{
+            color: purple;
+        }
+        /* grouping selector */
+        footer, span{
+            color: yellow; background-color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+ <h3>CSS Selectors</h3>
+    <p class="bgcolour">this is a simple paragraph to demonstrate css selectors</p>
+    <p id="purplecolour" class="bgcolour">this is a simple another paragraph to demonstrate css selectors</p>
+    <div>
+        <p>this is yet a simple another paragraph to demonstrate css selectors</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>

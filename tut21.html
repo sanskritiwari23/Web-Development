@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alingment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&display=swap" rel="stylesheet">"
+    <style>
+        *{
+         box-sizing: border-box;
+        }
+        body{
+            font-family: 'Single Day', cursive;
+        }
+
+         .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin:33px auto;/*It calculated margin by itself dono side barabar margins distance le lega vo*/
+            font-size: x-large;
+            background-color: rgb(250, 222, 198);
+         }
+
+         .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(253, 229, 241);
+            
+         }
+         #fruits{
+            float: right;
+            width: 48%;
+         }
+
+         #computer{
+            float: left;
+            width: 48%;
+         }
+
+         #stationary{
+            clear: both;/*jaise hi maine ye likha mera mtlb h ki jo bhi float left h vo mujhe tang na kre*/
+            /*float: left;*/
+            width: 100%;
+         }
+         p{
+            /*text-align: right;
+            text-align: left;
+            text-align: center;*/
+            text-align: justify;
+            margin: auto;
+            width: 45%;
+         }
+         #huju{
+            font-family: 'Hahmlet', serif
+         }
+
+    </style>
+</head>
+<body>
+   <div id="huju" class="container">
+      <h1>WELCOME TO MY STORE</h1>
+   </div>
+    <div class="container">
+         <div id="fruits" class="item">
+             <H3>Fruits</H3>
+        <p id="fruitspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos molestias ab at amet corporis, illo assumenda saepe? Quaerat quis, tempora corrupti vel, excepturi consequatur unde quo nam voluptatum nemo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur vero itaque! Commodi non aliquid aliquam beatae labore. Aperiam veniam officia delectus, voluptatem ipsa consequuntur, aspernatur repellat dolore nemo a vero asperiores nostrum molestiae.</p>
+         </div>
+         <div id="computer" class="item">
+            <H3>Computer</H3>
+       <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos molestias ab at amet corporis, illo assumenda saepe? Quaerat quis, tempora corrupti vel, excepturi consequatur unde quo nam voluptatum nemo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur vero itaque! Commodi non aliquid aliquam beatae labore. Aperiam veniam officia delectus, voluptatem ipsa consequuntur, aspernatur repellat dolore nemo a vero asperiores nostrum molestiae.</p>
+        </div>
+        <div id="stationary" class="item">
+            <H3>Stationary</H3>
+       <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos molestias ab at amet corporis, illo assumenda saepe? Quaerat quis, tempora corrupti vel, excepturi consequatur unde quo nam voluptatum nemo asperiores.</p>
+        </div>
+        <div id="glasses" class="item">
+         <H3>Computer</H3>
+    <p id="glassespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos molestias ab at amet corporis, illo assumenda saepe? Quaerat quis, tempora corrupti vel, excepturi consequatur unde quo nam voluptatum nemo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur vero itaque! Commodi non aliquid aliquam beatae labore. Aperiam veniam officia delectus, voluptatem ipsa consequuntur, aspernatur repellat dolore nemo a vero asperiores nostrum molestiae nana frist form and nor okay.</p>
+     </div>
+    </div>
+    </body>
+</html>
